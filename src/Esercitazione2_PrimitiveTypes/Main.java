@@ -6,7 +6,7 @@ public class Main {
 
         char a = 'a';
         char b = 'b';
-        String combined = "" + a + b ;
+        String combined = "" + a + b;
 
         System.out.println(combined);
 
