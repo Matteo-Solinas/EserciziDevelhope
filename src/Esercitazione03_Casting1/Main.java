@@ -1,4 +1,4 @@
-package Esercitazione3_Casting1;
+package Esercitazione03_Casting1;
 
 public class Main {
 

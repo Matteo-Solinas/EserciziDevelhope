@@ -1,4 +1,4 @@
-package Esercitazione7_operatoriAritmetici1;
+package Esercitazione07_operatoriAritmetici1;
 
 public class Main {
 

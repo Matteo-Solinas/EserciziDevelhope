@@ -1,4 +1,4 @@
-package Esercitazione1_PrimitiveTypes;
+package Esercitazione01_PrimitiveTypes;
 
 public class Main {
 

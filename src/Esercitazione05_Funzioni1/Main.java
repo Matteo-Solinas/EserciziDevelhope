@@ -1,4 +1,4 @@
-package Esercitazione5_Funzioni1;
+package Esercitazione05_Funzioni1;
 
 public class Main {
 
