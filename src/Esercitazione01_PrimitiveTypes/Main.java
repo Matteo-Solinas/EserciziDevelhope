@@ -11,7 +11,7 @@ public class Main {
         double altezza = 15.32d;
         double area = (base * altezza) / 2;
 
-        System.out.println(area);
+        System.out.println("area del triangolo: " + area);
 
     }
 }
