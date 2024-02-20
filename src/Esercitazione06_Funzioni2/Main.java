@@ -8,7 +8,7 @@ public class Main {
 
         String stringInput = "ciao ciao ciao!";
         int length = stringLength(stringInput);
-        System.out.println("La stringa: -" + stringInput + "- è lunga: " + length);
+        System.out.println("La stringa: " + stringInput + " è lunga: " + length);
 
     }
 
