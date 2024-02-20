@@ -9,7 +9,7 @@ public class Main {
         char a = 'a';
         char b = 'b';
 
-        String combined = a + b + "";
+        int combined = a + b;
 
         System.out.println("valore ASCII di a + b = " + combined);
     }
