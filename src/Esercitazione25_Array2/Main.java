@@ -9,6 +9,9 @@ public class Main {
 
         char[] chars = createArrayChar();
         char toCheck = 'a';
+
+        System.out.println("numero delle occorrenze per il carattere '" + toCheck + "': " + checkCharOccurrencesFor(toCheck, chars));
+        
         System.out.println("numero delle occorrenze per il carattere '" + toCheck + "': " + checkCharOccurrencesForEach(toCheck, chars));
     }
 
