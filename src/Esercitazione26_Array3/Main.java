@@ -16,20 +16,21 @@ public class Main {
 
     }
 
+    //takes an array, removes duplicate elements and swaps them with -1
     public static int[] removeDuplicates(int[] array) {
-        int[] x = new int[array.length];
+        int[] newArray = new int[array.length];
         int j = 0;
 
         for (int i = 0; i < array.length - 1; i++) {
             if (array[i] != array[i + 1]) {
-                x[j++] = array[i];
+                newArray[j++] = array[i];
             } else {
-                x[j++] = -1;
+                newArray[j++] = -1;
             }
         }
-        x[j] = array[array.length - 1];
+        newArray[j] = array[array.length - 1];
 
-        return x;
+        return newArray;
     }
 }
 
