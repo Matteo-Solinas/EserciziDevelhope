@@ -19,11 +19,11 @@ public class Main {
 
     //it checks a string length;
     public static void checkStringLength(String string) {
-        int length = string.length();
+        //int length = string.length();
 
-        if (length > 10) {
+        if (string.length() > 10) {
             System.out.println("Lunghezza maggiore di 10");
-        } else if (length < 10) {
+        } else if (string.length() < 10) {
             System.out.println("Lunghezza minore di 10");
         } else {
             System.out.println("Lunghezza pari a 10");
