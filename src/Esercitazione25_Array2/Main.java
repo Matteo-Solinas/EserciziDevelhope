@@ -9,7 +9,7 @@ public class Main {
 
         char[] chars = createArrayChar();
         char toCheck = 'a';
-        System.out.println("numero delle occorrenze per il carattere '" + toCheck + "': " + checkCharOccurrences(toCheck,chars));
+        System.out.println("numero delle occorrenze per il carattere '" + toCheck + "': " + checkCharOccurrences(toCheck, chars));
     }
 
     //creates an array of chars with index 0 to 4
@@ -25,6 +25,20 @@ public class Main {
     }
 
     //calculates occurrences of a specific character inside an array
+    //with for cycle
+    public static int checkCharOccurrencesFor(char toCheck, char[] chars) {
+        int occurrences = 0;
+
+        for (char i = 0; i < chars.length; i++) {
+            if (chars[i] == toCheck) {
+                occurrences++;
+            }
+        }
+        return occurrences;
+    }
+
+    //calculates occurrences of a specific character inside an array
+    //with foreach cycle
     public static int checkCharOccurrences(char toCheck, char[] chars) {
         int occurrences = 0;
 
@@ -35,4 +49,5 @@ public class Main {
         }
         return occurrences;
     }
+
 }
