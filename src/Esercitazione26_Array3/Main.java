@@ -1,7 +1,6 @@
 package Esercitazione26_Array3;
 
 import java.util.Arrays;
-import java.util.Random;
 
 public class Main {
 
@@ -13,6 +12,10 @@ public class Main {
         int[] values = {1, 1, 3, 4, 5, 5};
         System.out.println(values.length);
         System.out.println("array con valori sostituiti: " + Arrays.toString(removeDuplicates(values)));
+
+        int[] numeriACaso = {0, 1, 20, -1, 3, -4, 28, 12, 1, 0, 2, -4};
+        TrovaESostituisciDuplicati(numeriACaso);
+        System.out.println("array con valori sostituiti con metodo corretto : " + Arrays.toString(numeriACaso));
 
     }
 
@@ -32,5 +35,19 @@ public class Main {
 
         return newArray;
     }
+
+    // metodo corretto visto in live
+    public static void TrovaESostituisciDuplicati(int[] arrayInt) {
+        for (int i = 0; i < arrayInt.length; i++) {
+            if (arrayInt[i] != -1) {
+                for (int j = i + 1; j < arrayInt.length; j++) {
+                    if (arrayInt[i] == arrayInt[j]) {
+                        arrayInt[j] = -1;
+                    }
+                }
+            }
+        }
+    }
 }
+
 
