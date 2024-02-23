@@ -13,6 +13,10 @@ public class Main {
         System.out.println(values.length);
         System.out.println("array con valori sostituiti: " + Arrays.toString(removeDuplicates(values)));
 
+        int[] numeriACaso = {0, 1, 20, -1, 3, -4, 28, 12, 1, 0, 2, -4};
+        TrovaESostituisciDuplicati(numeriACaso);
+        System.out.println("array con valori sostituiti con metodo corretto : " + Arrays.toString(numeriACaso));
+
     }
 
     //takes an array, removes duplicate elements and swaps them with -1
@@ -31,5 +35,19 @@ public class Main {
 
         return newArray;
     }
+
+    // metodo corretto visto in live
+    public static void TrovaESostituisciDuplicati(int[] arrayInt) {
+        for (int i = 0; i < arrayInt.length; i++) {
+            if (arrayInt[i] != -1) {
+                for (int j = i + 1; j < arrayInt.length; j++) {
+                    if (arrayInt[i] == arrayInt[j]) {
+                        arrayInt[j] = -1;
+                    }
+                }
+            }
+        }
+    }
 }
+
 
