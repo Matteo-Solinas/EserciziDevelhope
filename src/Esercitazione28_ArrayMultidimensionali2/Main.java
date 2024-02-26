@@ -19,7 +19,6 @@ Matrice risultato
         printMatrix(matrix);
         System.out.println("matrice con colonne e righe scambiate");
         printMatrix(swapMatrixColumnsWithRows(matrix));
-
     }
 
     //print a matrix
@@ -48,8 +47,6 @@ Matrice risultato
         }
         return swappedMatrix;
     }
-
-
 }
 
 
