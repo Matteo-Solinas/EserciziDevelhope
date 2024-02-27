@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JavaBasics.iml" filepath="$PROJECT_DIR$/JavaBasics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EserciziDevelhope.iml" filepath="$PROJECT_DIR$/EserciziDevelhope.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOP/JavaOOP.iml" filepath="$PROJECT_DIR$/JavaOOP/JavaOOP.iml" />
     </modules>
   </component>
 </project>
