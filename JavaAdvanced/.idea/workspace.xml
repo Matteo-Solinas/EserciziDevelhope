@@ -1,27 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="050394da-7c47-44e4-93c6-be2c73de8f7f" name="Changes" comment="" />
+    <list default="true" id="050394da-7c47-44e4-93c6-be2c73de8f7f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/esercizio26_BigDecimal/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio26_BigDecimal/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio27_OperatoreTernario01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio28_OperatoreTernario02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Cerchio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Quadrato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/ShapeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Triangolo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio30_DesignePatterns_Builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio30_DesignePatterns_Builder/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio30_DesignePatterns_Builder/PersonBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaAdvanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAdvanced.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dXWWoE4aX4XAbgZ2bme4LPug7F" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/matte/Develhope/CorsoJava/StudioJava/src/Design_Patterns_Factory&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
