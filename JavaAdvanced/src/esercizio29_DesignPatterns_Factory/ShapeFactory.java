@@ -1,4 +1,4 @@
-package esercizio29_DesignePatterns_Factory;
+package esercizio29_DesignPatterns_Factory;
 
 public class ShapeFactory {
 
