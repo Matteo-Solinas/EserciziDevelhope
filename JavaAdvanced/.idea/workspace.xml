@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="050394da-7c47-44e4-93c6-be2c73de8f7f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/esercizio26_BigDecimal/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio26_BigDecimal/Operations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio27_OperatoreTernario01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio28_OperatoreTernario02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Cerchio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Quadrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/ShapeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio29_DesignePatterns_Factory/Triangolo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio30_DesignePatterns_Builder/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio30_DesignePatterns_Builder/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/esercizio30_DesignePatterns_Builder/PersonBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio31_DesignPatterns_SingletonAndStatic/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/esercizio31_DesignPatterns_SingletonAndStatic/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaAdvanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaAdvanced.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +18,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Matteo-Solinas"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Matteo-Solinas/EserciziDevelhope.git",
+    "accountId": "413c1b5e-aa7e-432b-8078-02d83975a9d8"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -35,20 +38,71 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/matte/Develhope/CorsoJava/StudioJava/src/Design_Patterns_Factory&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.esercizio30_DesignPatterns_Builder.Main.executor": "Run",
+    "Application.esercizio31_DesignPatterns_SingletonAndStatic.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/matte/Develhope/CorsoJava/StudioJava/src/Design_Patterns_Factory"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Application.esercizio30_DesignPatterns_Builder.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="esercizio29_DesignPatterns_Factory.Main" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="esercizio29_DesignPatterns_Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="esercizio30_DesignPatterns_Builder.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="esercizio30_DesignPatterns_Builder.Main" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="esercizio30_DesignPatterns_Builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="esercizio31_DesignPatterns_SingletonAndStatic.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="esercizio31_DesignPatterns_SingletonAndStatic.Main" />
+      <module name="JavaAdvanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="esercizio31_DesignPatterns_SingletonAndStatic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.esercizio30_DesignPatterns_Builder.Main" />
+        <item itemvalue="Application.esercizio31_DesignPatterns_SingletonAndStatic.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
