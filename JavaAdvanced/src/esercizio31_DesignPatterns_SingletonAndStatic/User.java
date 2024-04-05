@@ -4,6 +4,17 @@ public class User {
     private String name;
     private int age;
 
+    private static User instance;
+
+    private User() {}
+
+    public static User getInstance() {
+        if (instance == null) {
+            instance = new User();
+        }
+        return instance;
+    }
+
     public String getName() {
         return name;
     }
@@ -23,4 +34,5 @@ public class User {
     public void printInfo() {
         System.out.println("Nome: " + name + "\n" + "Età: " + age);
     }
+    
 }

@@ -8,23 +8,14 @@ public class Main {
        Del primo si stamperanno le informazioni di default, del secondo si cambieranno le informazioni e poi
        si stamperanno a video. */
 
-    private static User instance;
-
-    public static User createInstance() {
-        if (instance == null) {
-            instance = new User();
-        }
-        return instance;
-    }
-
     public static void main(String[] args) {
 
-        User user1 = createInstance();
+        User user1 = User.getInstance();
         System.out.println("Informazioni user1");
         user1.printInfo();
         System.out.println();
 
-        User user2 = createInstance();
+        User user2 = User.getInstance();
         user2.setName("Mario");
         user2.setAge(39);
 
