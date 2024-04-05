@@ -10,6 +10,22 @@ public class PersonBuilder {
     public PersonBuilder() {
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
     public static PersonBuilder builder() {
         return new PersonBuilder();
     }
@@ -35,7 +51,7 @@ public class PersonBuilder {
     }
 
     public Person build() {
-        return new Person(firstName, lastName, age, address);
+        return new Person(this);
     }
 
 }
