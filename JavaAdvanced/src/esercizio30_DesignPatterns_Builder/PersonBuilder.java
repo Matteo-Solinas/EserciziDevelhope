@@ -7,7 +7,7 @@ public class PersonBuilder {
     private int age;
     private String address;
 
-    public PersonBuilder() {
+    private PersonBuilder() {
     }
 
     public String getFirstName() {
