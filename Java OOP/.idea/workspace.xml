@@ -2,141 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f605b8d-44d3-471f-a14c-bf5697f828c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/JavaAdvanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/Java Advanced.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio01_ExceptionsAndErrors01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio01_ExceptionsAndErrors01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio02_ExceptionsAndErrors02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio02_ExceptionsAndErrors02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio03_ExceptionsAndErrors03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio03_ExceptionsAndErrors03/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio04_ExceptionsAndErrors04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio04_ExceptionsAndErrors04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio05_Nullability/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio05_Nullability/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio06_Autoboxing_Unboxing/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio06_Autoboxing_Unboxing/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio07_HashSet01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio07_HashSet01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio08_HashSet02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio08_HashSet02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio09_HashSet03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio09_HashSet03/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio10_ArrayList01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio10_ArrayList01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio10_ArrayList01/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio10_ArrayList01/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio11_ArrayList02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio11_ArrayList02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio11_ArrayList02/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio11_ArrayList02/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio12_LinkedList/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio12_LinkedList/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio12_LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio12_LinkedList/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio13_HashMap01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio13_HashMap01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio13_HashMap01/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio13_HashMap01/Veicolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio14_HashMap02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio14_HashMap02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio14_HashMap02/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio14_HashMap02/Veicolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio15_Record_DataClass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio15_Record_DataClass/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio15_Record_DataClass/Punto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio15_Record_DataClass/Punto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio16_Date01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio16_Date01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio17_Date02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio17_Date02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio18_Date03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio18_Date03/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio19_Date04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio19_Date04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio20_Date05/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio20_Date05/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio21_Testing01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio21_Testing01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio21_Testing01/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio21_Testing01/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio22_Testing02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio22_Testing02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio22_Testing02/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio22_Testing02/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio23_Testing03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio23_Testing03/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio23_Testing03/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio23_Testing03/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio24_Testing04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio24_Testing04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio24_Testing04/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio24_Testing04/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio25_Testing05/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio25_Testing05/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio25_Testing05/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio25_Testing05/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio26_BigDecimal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio26_BigDecimal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio26_BigDecimal/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio26_BigDecimal/Operations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio27_OperatoreTernario01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio27_OperatoreTernario01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio28_OperatoreTernario02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio28_OperatoreTernario02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio29_DesignPatterns_Factory/Cerchio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio29_DesignPatterns_Factory/Cerchio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio29_DesignPatterns_Factory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio29_DesignPatterns_Factory/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio29_DesignPatterns_Factory/Quadrato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio29_DesignPatterns_Factory/Quadrato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio29_DesignPatterns_Factory/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio29_DesignPatterns_Factory/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio29_DesignPatterns_Factory/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio29_DesignPatterns_Factory/ShapeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio29_DesignPatterns_Factory/ShapeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio29_DesignPatterns_Factory/ShapeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio29_DesignPatterns_Factory/Triangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio29_DesignPatterns_Factory/Triangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio30_DesignPatterns_Builder/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio30_DesignPatterns_Builder/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio30_DesignPatterns_Builder/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio30_DesignPatterns_Builder/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio30_DesignPatterns_Builder/PersonBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio30_DesignPatterns_Builder/PersonBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio31_DesignPatterns_SingletonAndStatic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio31_DesignPatterns_SingletonAndStatic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaAdvanced/src/esercizio31_DesignPatterns_SingletonAndStatic/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java Advanced/src/esercizio31_DesignPatterns_SingletonAndStatic/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/.idea/JavaOOP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/JavaOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java OOP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_2_01_ObjConstrGetSet1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_2_01_ObjConstrGetSet1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_2_01_ObjConstrGetSet1/Studente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_2_01_ObjConstrGetSet1/Studente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_2_02_ObjConstrGetSet2/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_2_02_ObjConstrGetSet2/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_2_02_ObjConstrGetSet2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_2_02_ObjConstrGetSet2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_2_03_IncapsulamentoEModificatori/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_2_03_IncapsulamentoEModificatori/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_2_03_IncapsulamentoEModificatori/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_2_03_IncapsulamentoEModificatori/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_01_Ereditarietà1/Animale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_01_Ereditarietà1/Animale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_01_Ereditarietà1/Gatto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_01_Ereditarietà1/Gatto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_01_Ereditarietà1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_01_Ereditarietà1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_02_Ereditarietà2/Forma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_02_Ereditarietà2/Forma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_02_Ereditarietà2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_02_Ereditarietà2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_02_Ereditarietà2/Rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_02_Ereditarietà2/Rettangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_03_Polimorfismo/Forma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_03_Polimorfismo/Forma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_03_Polimorfismo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_03_Polimorfismo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_03_Polimorfismo/Rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_03_Polimorfismo/Rettangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_03_Polimorfismo/Triangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_03_Polimorfismo/Triangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_04_AbstractClasses/Forma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_04_AbstractClasses/Forma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_04_AbstractClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_04_AbstractClasses/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_04_AbstractClasses/Rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_04_AbstractClasses/Rettangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_04_AbstractClasses/Triangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_04_AbstractClasses/Triangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_05_Interfaces/Forma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_05_Interfaces/Forma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_05_Interfaces/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_05_Interfaces/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_05_Interfaces/Rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_05_Interfaces/Rettangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_05_Interfaces/Triangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_05_Interfaces/Triangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_06_Enum/Forma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_06_Enum/Forma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_06_Enum/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_06_Enum/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_06_Enum/Rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_06_Enum/Rettangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_06_Enum/TipoForma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_06_Enum/TipoForma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_06_Enum/Triangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_06_Enum/Triangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_07_StringBuilder1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_07_StringBuilder1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaOOP/src/Esercitazione_3_08_StringBuilder2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Esercitazione_3_08_StringBuilder2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione01_PrimitiveTypes/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione02_PrimitiveTypes/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione03_Casting1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione04_Casting2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione05_Funzioni1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione06_Funzioni2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione07_OperatoriAritmetici1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione08_OperatoriAritmetici2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione09_OperatoriAritmetici3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione10_OperatoriAssegnazione/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione11_OperatoriComparazione1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione12_OperatoriComparazione2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione13_OperatoriLogici1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione14_OperatoriLogici2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione15_If_Else_Elseif1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione16_If_Else_Elseif2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione17_Switch1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione18_Switch2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione19_While/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione20_ForCicle1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione21_ForCicle2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione22_CicliAvanzati1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione23_CicliAvanzati2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione24_Array1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione25_Array2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione26_Array3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione27_ArrayMultidimensionali1/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/Esercitazione28_ArrayMultidimensionali2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/EserciziDevelhope.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,15 +33,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/matte/Documents/GitHub/EserciziDevelhope"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/matte/Documents/GitHub/EserciziDevelhope&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
