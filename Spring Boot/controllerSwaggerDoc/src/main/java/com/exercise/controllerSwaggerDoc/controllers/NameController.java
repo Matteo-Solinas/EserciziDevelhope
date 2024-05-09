@@ -6,8 +6,11 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/user")
 public class NameController {
 
-    //http://localhost:8080/swagger-ui/index.html
-    //http://localhost:8080/v3/api-docs per documentazione
+    /*
+    per documentazione
+    http://localhost:8080/swagger-ui/index.html
+    http://localhost:8080/v3/api-docs
+    */
 
     @GetMapping(path = "/name")
     public String getName(
