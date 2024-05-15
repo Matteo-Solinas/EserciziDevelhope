@@ -13,9 +13,11 @@ public class Enrollment {
     private long id;
 
     @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "classes_id")
     private Class classes;
 
     @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "students_id")
     private Student students;
 
 }
