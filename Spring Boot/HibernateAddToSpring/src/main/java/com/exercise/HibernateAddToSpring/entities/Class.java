@@ -5,6 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Entity
 @Data
 @Table(name = "classes")
@@ -21,5 +23,8 @@ public class Class {
 
     @Column(nullable = false)
     private String description;
+
+    @OneToMany(mappedBy = "classes")
+    private List<Enrollment> enrollments;
 
 }
