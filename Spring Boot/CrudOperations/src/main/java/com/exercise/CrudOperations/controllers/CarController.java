@@ -5,7 +5,6 @@ import com.exercise.CrudOperations.repositories.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -42,7 +41,7 @@ public class CarController {
         }
     }
 
-    @PutMapping("/{id}")
+    @PatchMapping("/{id}")
     public Car updateCarType(@PathVariable Long id, @RequestParam String type) {
         if (carRepository.existsById(id)) {
             Car car = carRepository.getReferenceById(id);
@@ -54,12 +53,13 @@ public class CarController {
         }
     }
 
-    @DeleteMapping("/{id}")
-    public void deleteCar(@PathVariable Long id) throws ResponseStatusException {
+    @DeleteMapping("/delete/{id}")
+    public HttpStatus deleteCar(@PathVariable Long id) {
         if (carRepository.existsById(id)) {
             carRepository.deleteById(id);
+            return HttpStatus.OK;
         } else {
-            throw new ResponseStatusException(HttpStatus.CONFLICT);
+            return HttpStatus.CONFLICT;
         }
     }
 
