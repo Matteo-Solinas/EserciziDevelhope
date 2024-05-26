@@ -2,7 +2,7 @@ package com.exercise.crudTest1.servicesTest;
 
 import com.exercise.crudTest1.dtos.StudentChangeStatusDTO;
 import com.exercise.crudTest1.dtos.StudentDTO;
-import com.exercise.crudTest1.dtos.StudentMapper;
+import com.exercise.crudTest1.mapper.StudentMapper;
 import com.exercise.crudTest1.entities.StudentEntity;
 import com.exercise.crudTest1.repositories.StudentRepository;
 import com.exercise.crudTest1.services.StudentService;
@@ -15,8 +15,9 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 
 @SpringBootTest
@@ -94,6 +95,5 @@ class StudentServiceTest {
         StudentDTO studentUpdated = studentService.updateIsWorking(1L, studentChangeStatusDTO);
         assertEquals(false, studentUpdated.getIsWorking());
     }
-
 
 }

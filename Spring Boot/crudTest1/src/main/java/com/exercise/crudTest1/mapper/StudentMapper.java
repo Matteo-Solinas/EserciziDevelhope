@@ -1,5 +1,6 @@
-package com.exercise.crudTest1.dtos;
+package com.exercise.crudTest1.mapper;
 
+import com.exercise.crudTest1.dtos.StudentDTO;
 import com.exercise.crudTest1.entities.StudentEntity;
 import org.mapstruct.Mapper;
 
