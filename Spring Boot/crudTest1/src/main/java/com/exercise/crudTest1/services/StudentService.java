@@ -29,16 +29,19 @@ public class StudentService {
         List<StudentEntity> students = this.studentRepository.findAll();
         if (students.isEmpty()) {
             throw new StudentNotFoundException();
+        } else {
+            return students;
         }
-        return students;
     }
 
     public StudentEntity getSingleStudent(Long id) {
         Optional<StudentEntity> studentFound = this.studentRepository.findById(id);
         if (studentFound.isEmpty()) {
             throw new StudentNotFoundException();
+        } else {
+            return studentFound.get();
         }
-        return studentFound.get();
+
     }
 
     public StudentDTO updateStudent(Long id, StudentDTO studentDTO) {
@@ -65,8 +68,9 @@ public class StudentService {
     public void deleteStudent(Long id) {
         if (!studentRepository.existsById(id)) {
             throw new StudentNotFoundException();
+        } else {
+            this.studentRepository.deleteById(id);
         }
-        this.studentRepository.deleteById(id);
     }
 
 }
