@@ -5,10 +5,10 @@ import com.exercise.crudTest1.dtos.StudentDTO;
 import com.exercise.crudTest1.entities.StudentEntity;
 import com.exercise.crudTest1.services.StudentService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.net.URI;
 import java.util.List;
 
 @RestController
@@ -22,7 +22,7 @@ public class StudentController {
     @ResponseBody
     public ResponseEntity<StudentDTO> createStudent(@RequestBody StudentDTO studentDTO) {
         StudentDTO newStudent = this.studentService.createStudent(studentDTO);
-        return new ResponseEntity<>(newStudent, HttpStatus.CREATED);
+        return ResponseEntity.created(URI.create("api/v1/students")).body(newStudent);
     }
 
     @GetMapping
