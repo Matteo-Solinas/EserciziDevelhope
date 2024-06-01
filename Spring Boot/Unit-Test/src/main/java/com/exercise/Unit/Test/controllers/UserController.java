@@ -28,15 +28,15 @@ public class UserController {
 
     @GetMapping
     @ResponseBody
-    public ResponseEntity<List<UserEntity>> getAllUsers() {
-        List<UserEntity> users = this.userService.getAllUsers();
+    public ResponseEntity<List<UserDTO>> getAllUsers() {
+        List<UserDTO> users = this.userService.getAllUsers();
         return ResponseEntity.ok().body(users);
     }
 
     @GetMapping("/{id}")
     @ResponseBody
-    public ResponseEntity<UserEntity> getUserById(@PathVariable Long id) {
-        UserEntity userFound = this.userService.getUserById(id);
+    public ResponseEntity<UserDTO> getUserById(@PathVariable Long id) {
+        UserDTO userFound = this.userService.getUserById(id);
         return ResponseEntity.ok().body(userFound);
     }
 
@@ -49,7 +49,7 @@ public class UserController {
 
     @DeleteMapping("/{id}")
     @ResponseBody
-    public ResponseEntity deleteUser(@PathVariable Long id) {
+    public ResponseEntity<?> deleteUser(@PathVariable Long id) {
         this.userService.deleteUser(id);
         return ResponseEntity.noContent().build();
     }

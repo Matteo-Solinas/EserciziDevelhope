@@ -25,8 +25,8 @@ public class StudentService {
         return studentMapper.asDTO(newStudent);
     }
 
-    public List<StudentEntity> getAllStudents() {
-        List<StudentEntity> students = this.studentRepository.findAll();
+    public List<StudentDTO> getAllStudents() {
+        List<StudentDTO> students = this.studentRepository.findAll().stream().map(studentMapper::asDTO).toList();
         if (students.isEmpty()) {
             throw new StudentNotFoundException();
         } else {
@@ -34,12 +34,12 @@ public class StudentService {
         }
     }
 
-    public StudentEntity getSingleStudent(Long id) {
+    public StudentDTO getSingleStudent(Long id) {
         Optional<StudentEntity> studentFound = this.studentRepository.findById(id);
         if (studentFound.isEmpty()) {
             throw new StudentNotFoundException();
         } else {
-            return studentFound.get();
+            return studentMapper.asDTO(studentFound.get());
         }
 
     }

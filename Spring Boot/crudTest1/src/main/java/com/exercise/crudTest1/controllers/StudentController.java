@@ -2,7 +2,6 @@ package com.exercise.crudTest1.controllers;
 
 import com.exercise.crudTest1.dtos.StudentChangeStatusDTO;
 import com.exercise.crudTest1.dtos.StudentDTO;
-import com.exercise.crudTest1.entities.StudentEntity;
 import com.exercise.crudTest1.services.StudentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -27,15 +26,15 @@ public class StudentController {
 
     @GetMapping
     @ResponseBody
-    public ResponseEntity<List<StudentEntity>> getAllStudents() {
-        List<StudentEntity> students = this.studentService.getAllStudents();
+    public ResponseEntity<List<StudentDTO>> getAllStudents() {
+        List<StudentDTO> students = this.studentService.getAllStudents();
         return ResponseEntity.ok().body(students);
     }
 
     @GetMapping("/{id}")
     @ResponseBody
-    public ResponseEntity<StudentEntity> getStudent(@PathVariable Long id) {
-        StudentEntity studentFound = this.studentService.getSingleStudent(id);
+    public ResponseEntity<StudentDTO> getStudent(@PathVariable Long id) {
+        StudentDTO studentFound = this.studentService.getSingleStudent(id);
         return ResponseEntity.ok().body(studentFound);
     }
 

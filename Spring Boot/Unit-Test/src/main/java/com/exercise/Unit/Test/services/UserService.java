@@ -3,9 +3,11 @@ package com.exercise.Unit.Test.services;
 import com.exercise.Unit.Test.dtos.UserDTO;
 import com.exercise.Unit.Test.entities.UserEntity;
 import com.exercise.Unit.Test.mapper.UserMapper;
+import com.exercise.Unit.Test.mapper.UserMapperImpl;
 import com.exercise.Unit.Test.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -26,17 +28,17 @@ public class UserService {
         return userMapper.asDTO(newUser);
     }
 
-    public List<UserEntity> getAllUsers() {
-        List<UserEntity> users = this.userRepository.findAll();
+    public List<UserDTO> getAllUsers() {
+        List<UserDTO> users = this.userRepository.findAll().stream().map(userMapper::asDTO).toList();
         if (users.isEmpty()) {
-            return null;
+            return new ArrayList<>();
         }
         return users;
     }
 
-    public UserEntity getUserById(Long id) {
+    public UserDTO getUserById(Long id) {
         Optional<UserEntity> userFound = this.userRepository.findById(id);
-        return userFound.orElse(null);
+        return userMapper.asDTO(userFound.orElse(null));
     }
 
     public UserDTO updateUser(Long id, UserDTO userDTO) {
