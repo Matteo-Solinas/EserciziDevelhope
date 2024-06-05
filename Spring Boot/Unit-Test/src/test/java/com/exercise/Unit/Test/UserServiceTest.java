@@ -64,7 +64,7 @@ public class UserServiceTest {
 
         when(userRepository.findById(1L)).thenReturn(Optional.of(user));
 
-        UserEntity userFound = userService.getUserById(1L);
+        UserDTO userFound = userService.getUserById(1L);
         assertEquals(1L, userFound.getId());
         assertEquals("Mario", userFound.getFirstName());
         assertEquals("Rossi", userFound.getLastname());
