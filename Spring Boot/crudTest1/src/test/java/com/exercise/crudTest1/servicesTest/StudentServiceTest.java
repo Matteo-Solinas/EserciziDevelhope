@@ -15,7 +15,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
@@ -71,8 +70,7 @@ class StudentServiceTest {
 
         when(studentRepository.findById(1L)).thenReturn(Optional.of(student));
 
-        StudentEntity studentFound = studentService.getSingleStudent(1L);
-        assertEquals(1L, studentFound.getId());
+        StudentDTO studentFound = studentService.getSingleStudent(1L);
         assertEquals("Mario", studentFound.getName());
         assertEquals("Rossi", studentFound.getSurname());
         assertEquals(true, studentFound.getIsWorking());
