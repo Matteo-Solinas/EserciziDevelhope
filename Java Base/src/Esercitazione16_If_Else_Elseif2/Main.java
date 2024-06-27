@@ -19,7 +19,6 @@ public class Main {
 
     //it checks a string length;
     public static void checkStringLength(String string) {
-        //int length = string.length();
 
         if (string.length() > 10) {
             System.out.println("Lunghezza maggiore di 10");

@@ -9,6 +9,8 @@ public class Main {
         char a = 'a';
         char b = 'b';
 
+        /* In Java, quando si sommano due variabili di tipo char,
+        il risultato è la somma dei loro valori ASCII */
         int combined = a + b;
 
         System.out.println("valore ASCII di a + b = " + combined);

@@ -14,8 +14,7 @@ public class Main {
 
     public static boolean checkOdd(int num) {
         boolean isEven = num % 2 == 0;
-        boolean isOdd = !isEven;
-        return isOdd;
+        return !isEven;
     }
 
 }

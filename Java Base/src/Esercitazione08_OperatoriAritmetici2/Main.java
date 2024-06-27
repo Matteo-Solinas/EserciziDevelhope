@@ -11,6 +11,6 @@ public class Main {
     }
 
     public static double divisione(int a, int b, int c) {
-        return a / b / c;
+        return (double) a / b / c;
     }
 }
