@@ -9,12 +9,12 @@ public class Main {
         System.out.println(checkDivisionByZero(5));
     }
 
-    public static int checkDivisionByZero(int inputNum) {
+    public static boolean checkDivisionByZero(int inputNum) {
         try {
-            return inputNum / 0;
+            int result = inputNum / 0;
         } catch (ArithmeticException e) {
-            System.out.println(e);
+            System.out.println("Division by 0 is impossible: " + e.getMessage());
         }
-        return 0;
+        return false;
     }
 }

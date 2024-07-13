@@ -14,18 +14,18 @@ public class Main {
         try {
             boolean result = isInRange(inputValue, minRangeBound, maxRangeBound);
             System.out.println(result);
-        } catch (Exception e) {
+        } catch (IllegalArgumentException e) {
             System.out.println(e);
         }
 
     }
 
-    public static boolean isInRange(int inputValue, int minRangeBound, int maxRangeBound) throws Exception {
+    public static boolean isInRange(int inputValue, int minRangeBound, int maxRangeBound) throws IllegalArgumentException {
 
         if (inputValue >= minRangeBound && inputValue <= maxRangeBound) {
             return true;
         } else {
-            throw new Exception("Il valore " + inputValue + " non è compreso tra " + minRangeBound + " e " + maxRangeBound);
+            throw new IllegalArgumentException("Il valore " + inputValue + " non è compreso tra " + minRangeBound + " e " + maxRangeBound);
         }
 
     }
